@@ -1,0 +1,1 @@
+Ganti foto di folder images dan tambahkan music.mp3 bila diinginkan.
