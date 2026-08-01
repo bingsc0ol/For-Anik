@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="card">
+
+        <h1>🎂 Happy Birthday</h1>
+
+        <h2>kesayangan mas❤️</h2>
+
+        <p>
+            Hari ini adalah hari yang paling spesial.
+            Terima kasih sudah menjadi bagian terindah
+            dalam hidupku.
+        </p>
+
+        <button onclick="showLetter()">
+            💌 Buka Surat
+        </button>
+
+    </div>
+
+    <div class="card" id="letter">
+
+        <h2>Untuk Kamu ❤️</h2>
+
+        <p>
+
+Selamat ulang tahun sayang...
+
+Semoga di umur yang baru ini kamu selalu diberi kesehatan.
+
+Semoga semua cita-cita dan impianmu tercapai.
+
+Terima kasih karena sudah hadir di hidup mas, selalu ada untuk mas.
+
+Terima kasih untuk semua tawa,
+semua cerita,
+dan semua kenangan indah yang kita buat bersama.
+
+Aku berharap kita akan terus bersama,
+melewati banyak ulang tahun berikutnya.
+
+Aku sayang kamu hari ini,
+besok,
+dan selamanya.
+
+❤️
+
+        </p>
+
+    </div>
+
+</div>
+
+<section class="gallery">
+
+    <img src="Foto1.jpg" alt="Foto 1">
+
+    <img src="Foto2.jpg" alt="Foto 2">
+
+    <img src="Foto3.jpg" alt="Foto 3">
+
+</section>
+
+<footer>
+
+Made with ❤️ for Anik
+
+</footer>
+
+<script>
+
+function showLetter(){
+
+    document.getElementById("letter").style.display="block";
+
+    document.getElementById("letter").scrollIntoView({
+        behavior:"smooth"
+    });
+
+}
+
+</script>
+
+</body>
+</html>
