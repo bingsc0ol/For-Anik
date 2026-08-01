@@ -1,0 +1,261 @@
+/* ==========================
+   HAPPY BIRTHDAY - FOR ANIK
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:linear-gradient(135deg,#ff9ac6,#ffd5e5,#fff0f6);
+    overflow-x:hidden;
+}
+
+/* Background Love */
+
+body::before{
+
+content:"❤ ❤ ❤ ❤ ❤ ❤ ❤ ❤ ❤ ❤";
+
+position:fixed;
+
+top:-20px;
+
+left:-50px;
+
+width:120%;
+
+height:120%;
+
+font-size:40px;
+
+color:rgba(255,255,255,.15);
+
+transform:rotate(-20deg);
+
+pointer-events:none;
+
+z-index:-1;
+
+}
+
+/* Container */
+
+.container{
+
+width:90%;
+
+max-width:900px;
+
+margin:auto;
+
+padding:40px 0;
+
+}
+
+/* Card */
+
+.card{
+
+background:rgba(255,255,255,.85);
+
+backdrop-filter:blur(10px);
+
+border-radius:25px;
+
+padding:35px;
+
+margin-bottom:30px;
+
+text-align:center;
+
+box-shadow:0 15px 35px rgba(0,0,0,.15);
+
+animation:fade .8s;
+
+}
+
+/* Judul */
+
+h1{
+
+font-size:50px;
+
+color:#e91e63;
+
+margin-bottom:10px;
+
+}
+
+h2{
+
+font-size:32px;
+
+color:#ff4081;
+
+margin-bottom:20px;
+
+}
+
+p{
+
+font-size:18px;
+
+line-height:1.8;
+
+color:#555;
+
+}
+
+/* Tombol */
+
+button{
+
+margin-top:25px;
+
+padding:15px 35px;
+
+background:#e91e63;
+
+border:none;
+
+color:white;
+
+font-size:18px;
+
+border-radius:50px;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+button:hover{
+
+transform:scale(1.08);
+
+background:#ff4081;
+
+}
+
+/* Surat */
+
+#letter{
+
+display:none;
+
+}
+
+/* Galeri */
+
+.gallery{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+gap:20px;
+
+width:90%;
+
+max-width:1000px;
+
+margin:40px auto;
+
+}
+
+.gallery img{
+
+width:100%;
+
+height:350px;
+
+object-fit:cover;
+
+border-radius:20px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.25);
+
+transition:.4s;
+
+display:block;
+
+background:#fff;
+
+}
+
+.gallery img:hover{
+
+transform:scale(1.05);
+
+}
+
+/* Footer */
+
+footer{
+
+padding:40px;
+
+text-align:center;
+
+font-size:18px;
+
+color:#666;
+
+}
+
+/* Animasi */
+
+@keyframes fade{
+
+from{
+
+opacity:0;
+
+transform:translateY(30px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+h1{
+
+font-size:38px;
+
+}
+
+h2{
+
+font-size:28px;
+
+}
+
+p{
+
+font-size:16px;
+
+}
+
+.gallery img{
+
+height:280px;
+
+}
+
+}
